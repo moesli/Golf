@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Stylesheet.uss?fileID=7433441132597879392&amp;guid=d74faacbd45801049943c7125dbff6d2&amp;type=3#Stylesheet" />
+    <ui:VisualElement name="Score" style="flex-grow: 1; height: 286px;">
+        <ui:Foldout name="Scoreboard" class="group" style="flex-direction: row; width: 540px;">
+            <ui:GroupBox name="Courses" class="group" style="flex-direction: row; border-left-color: rgb(123, 69, 20); border-right-color: rgb(123, 69, 20); border-top-color: rgb(123, 69, 20); border-bottom-color: rgb(123, 69, 20);">
+                <ui:GroupBox class="group" style="flex-direction: column; justify-content: center; min-height: auto; border-left-color: rgb(123, 69, 20); border-right-color: rgb(123, 69, 20); border-top-color: rgb(123, 69, 20); border-bottom-color: rgb(123, 69, 20); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;">
+                    <ui:Label text="Hole" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 10px; padding-right: 0; -unity-text-align: middle-left;" />
+                    <ui:Label text="Par" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 10px; padding-right: 0; -unity-text-align: middle-left;" />
+                    <ui:Label text="Score" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 10px; padding-right: 0; -unity-text-align: middle-left;" />
+                </ui:GroupBox>
+                <ui:GroupBox name="Course1" class="group" style="flex-direction: column; justify-content: center; border-left-color: rgb(123, 69, 20); border-right-color: rgb(123, 69, 20); border-top-color: rgb(123, 69, 20); border-bottom-color: rgb(123, 69, 20); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;">
+                    <ui:Label text="1" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                    <ui:Label text="3" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                    <ui:Label text="-" display-tooltip-when-elided="true" name="Hole1" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                </ui:GroupBox>
+                <ui:GroupBox name="Course2">
+                    <ui:Label text="2" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                    <ui:Label text="3" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                    <ui:Label text="-" display-tooltip-when-elided="true" name="Hole2" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                </ui:GroupBox>
+                <ui:GroupBox name="Course3">
+                    <ui:Label text="3" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                    <ui:Label text="4" display-tooltip-when-elided="true" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                    <ui:Label text="-" display-tooltip-when-elided="true" name="Hole3" class="list" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 0; padding-right: 0;" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+        </ui:Foldout>
+    </ui:VisualElement>
+    <ui:VisualElement name="Footer" style="height: auto; align-items: flex-end; justify-content: flex-end; flex-direction: row; min-width: 0; min-height: 0; flex-grow: 1;">
+        <ui:VisualElement name="Minimap" class="VisualElement" style="flex-grow: 1; flex-basis: 5%; height: 200px; width: 200px; max-width: none; max-height: none; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); min-width: 150px; min-height: 150px;">
+            <ui:IMGUIContainer style="flex-grow: 1; height: 200px; width: 200px; background-image: url(&apos;project://database/Assets/Scripts/Minimap.renderTexture?fileID=8400000&amp;guid=9a45f59e673d332498afe900fd60fccc&amp;type=2#Minimap&apos;); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 1px; border-bottom-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Center" class="VisualElement" style="flex-grow: 1; align-items: center; height: 200px; flex-direction: row-reverse; max-height: 210px;">
+            <ui:ProgressBar value="0" name="ChargeBar" high-value="1" style="rotate: -90deg; min-width: 200px; justify-content: flex-start; flex-grow: 0; align-items: stretch; -unity-background-image-tint-color: rgb(30, 55, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Container" class="VisualElement" style="flex-basis: 5%; margin-left: 0; align-items: center; justify-content: space-around; padding-left: 0; padding-right: 0; margin-top: 0; background-color: rgba(82, 142, 82, 0.34); flex-direction: column; flex-grow: 1; height: 200px; padding-top: 0; padding-bottom: 0; width: auto; max-width: 150px; margin-bottom: 0; max-height: 210px;">
+            <ui:Label display-tooltip-when-elided="true" name="Score" usage-hints="None" class="button" style="padding-right: 6px; margin-left: 3px; margin-right: 3px; margin-top: 1px; margin-bottom: 1px; padding-left: 6px; padding-top: 1px; padding-bottom: 1px; border-left-color: rgb(48, 48, 48); border-right-color: rgb(48, 48, 48); border-top-color: rgb(48, 48, 48); border-bottom-color: rgb(48, 48, 48);" />
+            <ui:Button text="Driver" display-tooltip-when-elided="true" name="Driver" class="button" style="background-color: rgb(0, 0, 0); width: auto; min-height: auto;" />
+            <ui:Button text="Iron" display-tooltip-when-elided="true" name="Iron" class="button" />
+            <ui:Button text="Putter" display-tooltip-when-elided="true" name="Putter" class="button" style="flex-direction: row;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

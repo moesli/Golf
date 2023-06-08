@@ -1,0 +1,65 @@
+.button {
+    background-color: rgba(0, 0, 0, 0.91);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: auto;
+    color: rgb(210, 210, 210);
+    -unity-font-style: bold;
+    min-width: 90px;
+    min-height: auto;
+    -unity-text-align: middle-center;
+}
+
+.VisualElement {
+    background-color: rgba(82, 142, 82, 0.34);
+    height: 200px;
+    max-height: 200px;
+}
+
+.list {
+    min-height: 25px;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+    min-width: 80px;
+    flex-grow: 1;
+    -unity-font-style: bold;
+    -unity-font: initial;
+    max-height: 40px;
+    background-color: rgba(72, 48, 25, 0);
+    border-left-color: rgba(185, 97, 41, 255);
+    border-right-color: rgba(185, 97, 41, 255);
+    border-top-color: rgba(185, 97, 41, 255);
+    border-bottom-color: rgba(185, 97, 41, 255);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    color: rgb(210, 210, 210);
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.group {
+    background-color: rgba(123, 69, 20, 255);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgba(185, 97, 41, 255);
+    border-right-color: rgba(185, 97, 41, 255);
+    border-top-color: rgba(185, 97, 41, 255);
+    border-bottom-color: rgba(185, 97, 41, 255);
+}
